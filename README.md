@@ -21,13 +21,17 @@ From line 323
 |
  - Initialize disturbanceExtensions
 |
+
 /////// not use for me now//////////////////
+
  - Load otherExtensions(including harvest)
 	|	
 	 - Load otherExtensions parameters
 |
  - Initialize otherExtensions
+
 //////////////////////////////////////////////////////////
+
 |
  -main loop
 	|
