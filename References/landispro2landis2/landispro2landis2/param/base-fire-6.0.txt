@@ -1,0 +1,99 @@
+LandisData  "Base Fire"
+
+Timestep  5
+
+>> Fire        Map	___ Event Size ___   Ignition  
+>> region      Code	 Mean  Min    Max    Prob.     k
+>> ---------   ------	----   ----   ----   --------  --------
+    empty      0	 100    4     400    0.001    100
+    sw.slope   1	 200    6     600    0.001     50
+    ne.slope   2	 100    4     400    0.001    100  
+    ridge      3	 200    6     600    0.001     50  
+    updrain     4	 100    4     400    0.001    100 
+    bottoms     5	 200    6     600    0.001     50 
+    gentleslope  6	 100    4     400    0.001    100
+    sw.slope1    7	 200    6     600    0.001     50
+    ne.slope1    8	 100    4     400    0.001    100
+    ridge1       9	 200    6     600    0.001     50
+    updrain1     10	 100    4     400    0.001    100
+    bottoms1     11	 200    6     600    0.001     50
+    gentleslope1 12	 100    4     400    0.001    100
+    sw.slope2    13	 200    6     600    0.001     50
+    ne.slope2    14	 100    4     400    0.001    100
+    ridge2       15	 200    6     600    0.001     50
+    updrain2     16	 100    4     400    0.001    100
+    bottoms2     17	 200    6     600    0.001     50
+    gentleslope2   18	 100    4     400    0.001    100
+
+InitialFireRegionsMap	landtype270.gis
+
+DynamicFireRegionTable  << Optional parameter
+
+>>Year	FileName  (this line always commented out)
+  20	landtype270.gis  << If table is not active, comment out this line
+
+
+FuelCurveTable
+
+>>             Severities (in increasing order)
+>> Ecoregion   S1   S2   S3   S4   S5
+>> ------------------------------------
+   empty       10   20   50   70   120
+   sw.slope     5   15   20   -1    -1
+   ne.slope    10   20   50   70   120
+   ridge        5   15   20   -1    -1
+   updrain     10   20   50   70   120
+   bottoms      5   15   20   -1    -1
+   gentleslope 10   20   50   70   120
+   sw.slope1    5   15   20   -1    -1
+   ne.slope1   10   20   50   70   120
+   ridge1       5   15   20   -1    -1
+   updrain1    10   20   50   70   120
+   bottoms1     5   15   20   -1    -1
+   gentleslope1 10   20   50   70   120
+   sw.slope2    5   15   20   -1    -1
+   ne.slope2   10   20   50   70   120
+   ridge2       5   15   20   -1    -1
+   updrain2    10   20   50   70   120
+   bottoms2     5   15   20   -1    -1
+   gentleslope2 10   20   50   70   120
+
+WindCurveTable
+
+>>             Severities (in decreasing order)
+>> Ecoregion   S5   S4   S3   S2   S1
+>> ------------------------------------
+   empty        -1   -1    1   10   20
+   sw.slope      1    5   15   20   30
+   ne.slope     -1   -1    1   10   20
+   ridge         1    5   15   20   30
+   updrain      -1   -1    1   10   20
+   bottoms       1    5   15   20   30
+   gentleslope  -1   -1    1   10   20
+   sw.slope1     1    5   15   20   30
+   ne.slope1    -1   -1    1   10   20
+   ridge1        1    5   15   20   30
+   updrain1     -1   -1    1   10   20
+   bottoms1      1    5   15   20   30
+   gentleslope1 -1   -1    1   10   20
+   sw.slope2     1    5   15   20   30
+   ne.slope2    -1   -1    1   10   20
+   ridge2        1    5   15   20   30
+   updrain2     -1   -1    1   10   20
+   bottoms2      1    5   15   20   30
+   gentleslope2 -1   -1    1   10   20
+
+FireDamageTable
+
+>> Cohort Age       FireSeverity - 
+>> % of longevity   FireTolerance
+>> --------------   --------------
+     20%               -2
+     50%               -1
+     85%                0
+    100%                1
+
+
+MapNames  fire/severity-{timestep}.img
+LogFile   fire-log.csv
+SummaryLogFile fire/summary-log.csv

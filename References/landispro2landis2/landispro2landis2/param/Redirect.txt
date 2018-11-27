@@ -1,0 +1,510 @@
+Start Landis Pro at 2016/3/30 14:52:12
+Beginning Landis 7.0 Pro Run
+ Initializing...
+Reading input.
+output dir is 1
+reading Landis 70 output customization file.
+max value is 347
+reading age cohort in inputImgSpec2: input file is MapAttributeWithAge.txt
+Reading species composition map in inputImgSpec1
+
+Species maps output every------>10 years.
+Age maps output every---------->10 years.
+Age group maps output every---->10 years.
+
+Finish getting input
+Output Landis Scenario.txt....
+
+Start 6.0 Style writing output at 2016/3/30 14:52:15
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:52:17
+it took 00:00:01.3966794 seconds
+Start 7.0 Style writing output at 2016/3/30 14:52:17, itr = 0
+Finish 7.0 Style writing output at 2016/3/30 14:52:25
+it took 00:00:08.1354898 
+gl_param.RandSeed = 90
+
+Finish the initilization at 2016/3/30 14:52:25
+it took 00:00:12.7395775 seconds
+
+Environment parameter Updated.
+
+Environment map Updated.
+Processing succession at Year 10
+Start succession ... at 2016/3/30 14:52:25
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:52:37 sit took 00:00:11.8443755 seconds
+Start 7.0 Style writing output at 2016/3/30 14:52:37, itr = 1
+Finish 7.0 Style writing output at 2016/3/30 14:52:45
+it took 00:00:07.9181406 
+Start 6.0 Style writing output at 2016/3/30 14:52:45
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:52:46
+it took 00:00:01.3706589 seconds
+Processing succession at Year 20
+Start succession ... at 2016/3/30 14:52:46
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:52:58 sit took 00:00:11.9865071 seconds
+Start 7.0 Style writing output at 2016/3/30 14:52:58, itr = 2
+Finish 7.0 Style writing output at 2016/3/30 14:53:06
+it took 00:00:08.1992111 
+Start 6.0 Style writing output at 2016/3/30 14:53:06
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:53:08
+it took 00:00:01.4083326 seconds
+Processing succession at Year 30
+Start succession ... at 2016/3/30 14:53:08
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:53:20 sit took 00:00:12.6169956 seconds
+Start 7.0 Style writing output at 2016/3/30 14:53:20, itr = 3
+Finish 7.0 Style writing output at 2016/3/30 14:53:28
+it took 00:00:07.9611048 
+Start 6.0 Style writing output at 2016/3/30 14:53:28
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:53:30
+it took 00:00:01.3892506 seconds
+Processing succession at Year 40
+Start succession ... at 2016/3/30 14:53:30
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:53:42 sit took 00:00:12.7830725 seconds
+Start 7.0 Style writing output at 2016/3/30 14:53:42, itr = 4
+Finish 7.0 Style writing output at 2016/3/30 14:53:50
+it took 00:00:07.9970984 
+Start 6.0 Style writing output at 2016/3/30 14:53:50
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:53:52
+it took 00:00:01.3642102 seconds
+Processing succession at Year 50
+Start succession ... at 2016/3/30 14:53:52
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:54:06 sit took 00:00:13.8608388 seconds
+Start 7.0 Style writing output at 2016/3/30 14:54:06, itr = 5
+Finish 7.0 Style writing output at 2016/3/30 14:54:13
+it took 00:00:07.9086698 
+Start 6.0 Style writing output at 2016/3/30 14:54:13
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:54:15
+it took 00:00:01.3747134 seconds
+Processing succession at Year 60
+Start succession ... at 2016/3/30 14:54:15
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:54:29 sit took 00:00:13.6416828 seconds
+Start 7.0 Style writing output at 2016/3/30 14:54:29, itr = 6
+Finish 7.0 Style writing output at 2016/3/30 14:54:36
+it took 00:00:07.9191871 
+Start 6.0 Style writing output at 2016/3/30 14:54:36
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:54:38
+it took 00:00:01.4102960 seconds
+Processing succession at Year 70
+Start succession ... at 2016/3/30 14:54:38
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:54:52 sit took 00:00:13.6997249 seconds
+Start 7.0 Style writing output at 2016/3/30 14:54:52, itr = 7
+Finish 7.0 Style writing output at 2016/3/30 14:54:59
+it took 00:00:07.9170621 
+Start 6.0 Style writing output at 2016/3/30 14:54:59
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:55:01
+it took 00:00:01.3815092 seconds
+Processing succession at Year 80
+Start succession ... at 2016/3/30 14:55:01
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:55:14 sit took 00:00:13.1613569 seconds
+Start 7.0 Style writing output at 2016/3/30 14:55:14, itr = 8
+Finish 7.0 Style writing output at 2016/3/30 14:55:22
+it took 00:00:07.9349782 
+Start 6.0 Style writing output at 2016/3/30 14:55:22
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:55:23
+it took 00:00:01.3654381 seconds
+Processing succession at Year 90
+Start succession ... at 2016/3/30 14:55:23
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:55:36 sit took 00:00:12.4518357 seconds
+Start 7.0 Style writing output at 2016/3/30 14:55:36, itr = 9
+1257
+i166 j195 k1 m1 value0
+i166 j195 k1 m2 value0
+i166 j195 k1 m3 value0
+i166 j195 k1 m4 value0
+i166 j195 k1 m5 value0
+i166 j195 k1 m6 value0
+i166 j195 k1 m7 value0
+i166 j195 k1 m8 value411
+i166 j195 k1 m9 value846
+i166 j195 k1 m10 value0
+i166 j195 k1 m11 value0
+i166 j195 k1 m12 value0
+i166 j195 k1 m13 value0
+i166 j195 k1 m14 value0
+i166 j195 k1 m15 value0
+1257
+i12 j112 k1 m1 value0
+i12 j112 k1 m2 value0
+i12 j112 k1 m3 value0
+i12 j112 k1 m4 value0
+i12 j112 k1 m5 value0
+i12 j112 k1 m6 value0
+i12 j112 k1 m7 value0
+i12 j112 k1 m8 value644
+i12 j112 k1 m9 value613
+i12 j112 k1 m10 value0
+i12 j112 k1 m11 value0
+i12 j112 k1 m12 value0
+i12 j112 k1 m13 value0
+i12 j112 k1 m14 value0
+i12 j112 k1 m15 value0
+1257
+i193 j156 k2 m1 value913
+i193 j156 k2 m2 value0
+i193 j156 k2 m3 value0
+i193 j156 k2 m4 value0
+i193 j156 k2 m5 value0
+i193 j156 k2 m6 value0
+i193 j156 k2 m7 value0
+i193 j156 k2 m8 value0
+i193 j156 k2 m9 value0
+i193 j156 k2 m10 value0
+i193 j156 k2 m11 value0
+i193 j156 k2 m12 value0
+i193 j156 k2 m13 value0
+i193 j156 k2 m14 value0
+i193 j156 k2 m15 value0
+i193 j156 k2 m16 value0
+i193 j156 k2 m17 value87
+i193 j156 k2 m18 value87
+i193 j156 k2 m19 value170
+i193 j156 k2 m20 value0
+i193 j156 k2 m21 value0
+i193 j156 k2 m22 value0
+i193 j156 k2 m23 value0
+i193 j156 k2 m24 value0
+i193 j156 k2 m25 value0
+i193 j156 k2 m26 value0
+i193 j156 k2 m27 value0
+i193 j156 k2 m28 value0
+i193 j156 k2 m29 value0
+i193 j156 k2 m30 value0
+1257
+i14 j97 k2 m1 value0
+i14 j97 k2 m2 value971
+i14 j97 k2 m3 value0
+i14 j97 k2 m4 value0
+i14 j97 k2 m5 value0
+i14 j97 k2 m6 value0
+i14 j97 k2 m7 value0
+i14 j97 k2 m8 value0
+i14 j97 k2 m9 value0
+i14 j97 k2 m10 value0
+i14 j97 k2 m11 value0
+i14 j97 k2 m12 value0
+i14 j97 k2 m13 value0
+i14 j97 k2 m14 value0
+i14 j97 k2 m15 value56
+i14 j97 k2 m16 value36
+i14 j97 k2 m17 value74
+i14 j97 k2 m18 value87
+i14 j97 k2 m19 value33
+i14 j97 k2 m20 value0
+i14 j97 k2 m21 value0
+i14 j97 k2 m22 value0
+i14 j97 k2 m23 value0
+i14 j97 k2 m24 value0
+i14 j97 k2 m25 value0
+i14 j97 k2 m26 value0
+i14 j97 k2 m27 value0
+i14 j97 k2 m28 value0
+i14 j97 k2 m29 value0
+i14 j97 k2 m30 value0
+1257
+i57 j174 k6 m1 value1181
+i57 j174 k6 m2 value0
+i57 j174 k6 m3 value0
+i57 j174 k6 m4 value0
+i57 j174 k6 m5 value0
+i57 j174 k6 m6 value0
+i57 j174 k6 m7 value0
+i57 j174 k6 m8 value0
+i57 j174 k6 m9 value0
+i57 j174 k6 m10 value0
+i57 j174 k6 m11 value4
+i57 j174 k6 m12 value0
+i57 j174 k6 m13 value0
+i57 j174 k6 m14 value0
+i57 j174 k6 m15 value40
+i57 j174 k6 m16 value0
+i57 j174 k6 m17 value0
+i57 j174 k6 m18 value32
+i57 j174 k6 m19 value0
+i57 j174 k6 m20 value0
+i57 j174 k6 m21 value0
+i57 j174 k6 m22 value0
+i57 j174 k6 m23 value0
+i57 j174 k6 m24 value0
+i57 j174 k6 m25 value0
+i57 j174 k6 m26 value0
+i57 j174 k6 m27 value0
+i57 j174 k6 m28 value0
+i57 j174 k6 m29 value0
+i57 j174 k6 m30 value0
+1274
+i38 j15 k18 m1 value0
+i38 j15 k18 m2 value0
+i38 j15 k18 m3 value0
+i38 j15 k18 m4 value0
+i38 j15 k18 m5 value0
+i38 j15 k18 m6 value0
+i38 j15 k18 m7 value0
+i38 j15 k18 m8 value5
+i38 j15 k18 m9 value1269
+i38 j15 k18 m10 value0
+i38 j15 k18 m11 value0
+i38 j15 k18 m12 value0
+i38 j15 k18 m13 value0
+i38 j15 k18 m14 value0
+i38 j15 k18 m15 value0
+i38 j15 k18 m16 value0
+i38 j15 k18 m17 value0
+i38 j15 k18 m18 value0
+i38 j15 k18 m19 value0
+i38 j15 k18 m20 value0
+1274
+i33 j115 k18 m1 value0
+i33 j115 k18 m2 value0
+i33 j115 k18 m3 value0
+i33 j115 k18 m4 value0
+i33 j115 k18 m5 value0
+i33 j115 k18 m6 value0
+i33 j115 k18 m7 value0
+i33 j115 k18 m8 value0
+i33 j115 k18 m9 value1274
+i33 j115 k18 m10 value0
+i33 j115 k18 m11 value0
+i33 j115 k18 m12 value0
+i33 j115 k18 m13 value0
+i33 j115 k18 m14 value0
+i33 j115 k18 m15 value0
+i33 j115 k18 m16 value0
+i33 j115 k18 m17 value0
+i33 j115 k18 m18 value0
+i33 j115 k18 m19 value0
+i33 j115 k18 m20 value0
+Finish 7.0 Style writing output at 2016/3/30 14:55:44
+it took 00:00:07.8936540 
+Start 6.0 Style writing output at 2016/3/30 14:55:44
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak age map
+creating 18 0 hickory age map
+creating 18 0 hemlock age map
+creating 18 0 whitepine age map
+creating 18 0 redcedar age map
+creating 18 0 Lobpine age map
+creating 18 0 redspruce age map
+creating 18 0 pseudosp age map
+
+Finish 6.0 Style writing output at 2016/3/30 14:55:45
+it took 00:00:01.3617136 seconds
+Processing succession at Year 100
+Start succession ... at 2016/3/30 14:55:45
+Seed Dispersal:
+end succession_Landis70 once
+Finish succession at 2016/3/30 14:55:57 sit took 00:00:12.1076123 seconds
+Start 7.0 Style writing output at 2016/3/30 14:55:57, itr = 10
+Finish 7.0 Style writing output at 2016/3/30 14:56:05
+it took 00:00:07.9065529 
+Start 7.0 Style writing output at 2016/3/30 14:56:05, itr = 10
+Finish 7.0 Style writing output at 2016/3/30 14:56:13
+it took 00:00:07.9291480 
+Start 6.0 Style writing output at 2016/3/30 14:56:13
+creating 18 0 redmaple age map
+creating 18 0 chestoak age map
+creating 18 0 northredoak age map
+creating 18 0 yellowpop age map
+creating 18 0 whiteoak age map
+creating 18 0 sugarmaple age map
+creating 18 0 blackcherry age map
+creating 18 0 blackoak age map
+creating 18 0 whiteash age map
+creating 18 0 amerbeech age map
+creating 18 0 scarletoak ag

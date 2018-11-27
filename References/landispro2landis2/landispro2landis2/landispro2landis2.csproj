@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27EF98AE-854F-486F-B35E-E8262078B7B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Landis.Extension.Succession.Landispro</RootNamespace>
+    <AssemblyName>Landis.Extension.Succession.Landispro</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Edu.Wisc.Forest.Flel.Util">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\6.0\Edu.Wisc.Forest.Flel.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\6.0\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Core">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\6.0\Landis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.AgeOnlyCohorts">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.AgeOnlyCohorts.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Cohorts">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.Cohorts.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.SpatialModeling">
+      <HintPath>C:\Program Files\LANDIS-II\v6\bin\6.0\Landis.SpatialModeling.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.5496.33904, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\osr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agelist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="defines.cs" />
+    <Compile Include="In_Output.cs" />
+    <Compile Include="landunit.cs" />
+    <Compile Include="landunits.cs" />
+    <Compile Include="map8.cs" />
+    <Compile Include="InputParam.cs" />
+    <Compile Include="pdp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reclass.cs" />
+    <Compile Include="reclass2.cs" />
+    <Compile Include="reclass3.cs" />
+    <Compile Include="site.cs" />
+    <Compile Include="sites.cs" />
+    <Compile Include="SiteVars.cs" />
+    <Compile Include="specie.cs" />
+    <Compile Include="species.cs" />
+    <Compile Include="speciesattr.cs" />
+    <Compile Include="speciesattrs.cs" />
+    <Compile Include="PlugIn.cs" />
+    <Compile Include="system1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetName).* "C:\Users\yykkn\Desktop\landis cs\summer\landispro2landis2\bin\extensions"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

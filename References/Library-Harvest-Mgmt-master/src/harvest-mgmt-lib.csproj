@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Landis.Library.HarvestManagement</RootNamespace>
+    <AssemblyName>Landis.Library.HarvestManagement-v3</AssemblyName>
+    <AssemblyTitle>Landis.Library.HarvestManagement-v3</AssemblyTitle>
+    <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
+    <AssemblyProduct>Landis.Library.HarvestManagement-v3</AssemblyProduct>    
+    <AssemblyVersion>3.0</AssemblyVersion>
+    <AssemblyDescription>Harvest Library for LANDIS-II</AssemblyDescription>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Harvest-Mgmt</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>  
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Harvest-Mgmt/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
+    <NeutralLanguage>English</NeutralLanguage>
+    <Authors>Landis-II-Foundation</Authors>         
+    <Product>Harvest Library</Product>
+    <Copyright>LANDIS-II Foundation</Copyright>   
+    <Version>3.0</Version> 
+    <PackageTags>LANDIS-II;Landis;Library;Harvest Management</PackageTags>
+    <Description>Harvest Library for LANDIS-II</Description>
+    <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
+    <FileVersion>7.0</FileVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Landis.Core" Version="2.0.0" />
+    <!-- Use Nuget packages with Succession-vAGB dependency for NECN-Hydro scenario -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Landis.Library.AgeOnlyCohorts-v3">
+      <HintPath>lib\Landis.Library.AgeOnlyCohorts-v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.BiomassCohorts-v3">
+      <HintPath>lib\Landis.Library.BiomassCohorts-v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Cohorts-v2">
+      <HintPath>lib\Landis.Library.Cohorts-v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.SiteHarvest-v2">
+      <HintPath>lib\Landis.Library.SiteHarvest-v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Succession-v6">
+      <HintPath>lib\Landis.Library.Succession-v6.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

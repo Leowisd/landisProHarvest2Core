@@ -1,0 +1,40 @@
+LandisData  "Base Wind"
+
+Timestep  5
+
+>>             ___ Event Size ___   Rotation
+>> Ecoregion    Max   Mean    Min   Period
+>> ---------   ----   ----   ----   --------
+    empty        400    100      4     100
+    sw.slope        600    200      6      50
+    ne.slope        400    100      4     100
+    ridge        600    200      6      50
+    updrain        400    100      4     100
+    bottoms        600    200      6      50
+    gentleslope    400    100      4     100
+    sw.slope1   600    200      6      50
+    ne.slope1   400    100      4     100
+    ridge1        600    200      6      50
+    updrain1        400    100      4     100
+    bottoms1        600    200      6      50
+    gentleslope1        400    100      4     100
+    sw.slope2        600    200      6      50
+    ne.slope2        400    100      4     100
+    ridge2        600    200      6      50
+    updrain2        400    100      4     100
+    bottoms2        600    200      6      50
+    gentleslope2        600    200      6      50
+
+WindSeverities
+
+ >>            Cohort Age       Mortality
+ >> Severity   % of longevity   Probability
+ >> --------   --------------   -----------
+       5          0% to  20%       0.05
+       4         20% to  50%       0.1
+       3         50% to  70%       0.5
+       2         70% to  85%       0.85
+       1         85% to 100%       0.95
+
+MapNames  wind/severity-{timestep}.img
+LogFile   wind-test-log.csv

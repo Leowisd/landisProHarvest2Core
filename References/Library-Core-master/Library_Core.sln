@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landis.Core", "src\Core\Landis.Core.csproj", "{CF2E7B87-1048-4CBC-A0A0-1E8832F9910B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landis.Core.Implementation", "src\Implementation\Landis.Core.Implementation.csproj", "{6DB0D930-B889-4510-95B8-7637932E4E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2E7B87-1048-4CBC-A0A0-1E8832F9910B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2E7B87-1048-4CBC-A0A0-1E8832F9910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2E7B87-1048-4CBC-A0A0-1E8832F9910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2E7B87-1048-4CBC-A0A0-1E8832F9910B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB0D930-B889-4510-95B8-7637932E4E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB0D930-B889-4510-95B8-7637932E4E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB0D930-B889-4510-95B8-7637932E4E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB0D930-B889-4510-95B8-7637932E4E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {501577CB-0875-40A2-AFA4-A6A2FD388E7A}
+	EndGlobalSection
+EndGlobal
