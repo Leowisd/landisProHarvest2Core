@@ -546,7 +546,7 @@ namespace Landis.Extension.Succession.Landispro
 
 
 
-    class map16
+    public class map16
     {
         private uint numCols, numRows;       //Map dimensions.	   
 
@@ -701,7 +701,7 @@ namespace Landis.Extension.Succession.Landispro
 
 
         //Read map from a file.   Input file is an 16-bit ERDAS GIS File with no extension.
-        int readImg(string fn, int giRow, int giCol)
+        public int readImg(string fn, int giRow, int giCol)
         {
             //char c8bit;
             Dataset simgFile = null;

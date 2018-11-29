@@ -47,6 +47,12 @@ namespace Landis.Extension.Succession.Landispro
         public int VolumeFlag   { get; set; }
         public int DispRegime   { get; set; }//Seeding regime: NO_DISPERSAL, UNIFORM, NEIGHBORS, DISPERSAL, or INTERPOLATE.
 
+        //Add by YYF 2018/11
+        public double Stocking_x_value { get; set; }
+        public double Stocking_y_value { get; set; }
+        public double Stocking_z_value { get; set; }
+        public int TimeStepHarvest { get; set; }
+
         public InputParameters()
         {
             Num_Iteration = 0;            
@@ -236,6 +242,22 @@ namespace Landis.Extension.Succession.Landispro
             ReadVar(freq_out_put);
             parameters.Freq_out_put = freq_out_put.Value.Actual;
 
+            //Add by YYF 2018/11
+            InputVar<int> timeStepHarvest = new InputVar<int>("HarvestTimestep");
+            ReadVar(timeStepHarvest);
+            parameters.TimeStepHarvest = timeStepHarvest.Value.Actual;
+
+            InputVar<double> stockingX = new InputVar<double>("StockingX");
+            ReadVar(stockingX);
+            parameters.Stocking_x_value = stockingX.Value.Actual;
+
+            InputVar<double> stockingY = new InputVar<double>("StockingY");
+            ReadVar(stockingY);
+            parameters.Stocking_y_value = stockingY.Value.Actual;
+
+            InputVar<double> stockingZ = new InputVar<double>("StockingZ");
+            ReadVar(stockingZ);
+            parameters.Stocking_z_value = stockingZ.Value.Actual;
 
             //---------------------------------------------------------------------------------
             //could not be directly got from the input parameter files

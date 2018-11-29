@@ -52,13 +52,29 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="gdal_csharp, Version=1.0.6785.30729, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\gdal_csharp.dll</HintPath>
+    </Reference>
     <Reference Include="Landis.Core, Version=6.0.4826.30523, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\Landis.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Landis.Extension.Succession.Landispro, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\Landis.Extension.Succession.Landispro.dll</HintPath>
+    </Reference>
     <Reference Include="Landis.Library.HarvestManagement-v1, Version=1.1.5767.22494, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\Landis.Library.HarvestManagement-v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.SpatialModeling, Version=1.0.4815.34359, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\Landis.SpatialModeling.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.6785.30725, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\osr_csharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,8 +86,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoundedPocketStandHarvester.cs" />
+    <Compile Include="CohortRemovalMask.cs" />
+    <Compile Include="GlobalFunctions.cs" />
+    <Compile Include="GroupSelectionRegime.cs" />
+    <Compile Include="GroupSelectionRegime70.cs" />
+    <Compile Include="HarvestEvent.cs" />
+    <Compile Include="HarvestEventQueue.cs" />
+    <Compile Include="HarvestPath.cs" />
+    <Compile Include="HarvestRegime.cs" />
+    <Compile Include="HarvestReport.cs" />
+    <Compile Include="HARVESTSites.cs" />
+    <Compile Include="HarvestVolumeFittingRegime.cs" />
+    <Compile Include="IntArray.cs" />
+    <Compile Include="Ldpoint.cs" />
+    <Compile Include="ManagementArea.cs" />
+    <Compile Include="ManagementAreas.cs" />
+    <Compile Include="MultiplePocketStandHarvester.cs" />
     <Compile Include="PlugIn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomRank.cs" />
+    <Compile Include="RankbyStocking.cs" />
+    <Compile Include="RankbyVolume.cs" />
+    <Compile Include="SiteHarvester.cs" />
+    <Compile Include="SiteRemovalMask.cs" />
+    <Compile Include="Stand.cs" />
+    <Compile Include="StandHarvest.cs" />
+    <Compile Include="StandIterator.cs" />
+    <Compile Include="StandRankingAlgorithm.cs" />
+    <Compile Include="Stands.cs" />
+    <Compile Include="StockingCuttingRegime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

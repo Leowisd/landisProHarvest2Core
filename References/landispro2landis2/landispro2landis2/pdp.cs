@@ -28,6 +28,10 @@ namespace Landis.Extension.Succession.Landispro
         //Succession
         private short[,] sTSLMortality;
 
+        //Add by YYF 2018/11
+        //Harvest
+        public short[,] sTSLHarvest;
+        public char[,] cHarvestEvent;
 
         public void addedto_sTSLMortality(uint i, uint j, short added_value)
         {
@@ -41,6 +45,8 @@ namespace Landis.Extension.Succession.Landispro
 
         public pdp(int mode, uint col, uint row)
         {
+            sTSLHarvest = null;
+            cHarvestEvent = null;
             set_parameters(mode, col, row);
         }
 
@@ -50,6 +56,12 @@ namespace Landis.Extension.Succession.Landispro
         {
             iCols   = col;
             iRows   = row;
+
+            //Harvest
+            if (sTSLHarvest == null)
+                sTSLHarvest = new short[iRows, iCols];
+            if (cHarvestEvent == null)
+                cHarvestEvent = new char[iRows, iCols];
 
             //Succession
             uint array_row = iRows + 1;
@@ -66,6 +78,8 @@ namespace Landis.Extension.Succession.Landispro
         ~pdp()
         {
             sTSLMortality 		  = null;
+            sTSLHarvest = null;
+            cHarvestEvent = null;
         }
     }
 }

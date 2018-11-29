@@ -146,7 +146,7 @@ namespace Landis.Extension.Succession.Landispro
     {
         private ISpecies spe;
         //private string name;           //Species Name.
-
+        
         //private int longevity;      //Maximum age.
         //private int maturity;       //Sexual Maturity.
         //private int shadeTolerance; //Shade Tolerance.
@@ -195,6 +195,17 @@ namespace Landis.Extension.Succession.Landispro
             set { maxAreaOfSTDTree = value; }
         }
 
+        //Add by YYF 2018/11
+        public int MaxSproutAge
+        {
+            get { return spe.MaxSproutAge; }
+        }
+
+        public int MinSproutAge
+        {
+            get { return spe.MinSproutAge; }
+        }
+        //========
 
         //Constructor
         public speciesattr()        

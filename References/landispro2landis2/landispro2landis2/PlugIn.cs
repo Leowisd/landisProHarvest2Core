@@ -20,7 +20,6 @@ namespace Landis.Extension.Succession.Landispro
     {
         public static readonly string ExtensionName = "Landis_pro Succession";
 
-        private static pdp pPDP = new pdp();
 
         private static ICore modelCore;
 
@@ -35,11 +34,15 @@ namespace Landis.Extension.Succession.Landispro
         private static List<string> SEC_landtypefiles = new List<string>();
         private static List<string> SEC_gisfiles = new List<string>();
 
-        private static int[] freq = new int[6];
+        //change by YYF 2018/11
+        public static int[] freq = new int[6];
+        public static uint numSpecies;
+        public static uint snr, snc;
+        public static pdp pPDP = new pdp();
+
+
         private static double[] wAdfGeoTransform = new double[6];
 
-        private static uint numSpecies;
-        private static uint snr, snc;
         private static uint specAtNum;
 
         private static int numbOfIter;
