@@ -1,5 +1,7 @@
 # landisProHarvest2Core
 
+#### Runnable Version 1.0
+
 #### How to start
 
 Under Library-Core-master/src/implementation/main/Model.cs
@@ -33,5 +35,3 @@ From line 323
 ....
 
 #### To do
-
-1. Compare succession part and correct

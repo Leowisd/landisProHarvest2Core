@@ -1905,8 +1905,9 @@ namespace Landis.Extension.Succession.Landispro
 
             Console.Write("\nFinish 6.0 Style writing output at {0}\n", ltimeTemp);
 
-            Console.Write("it took {0} seconds\n", ltimeTemp - ltime);
+            Console.Write("it took {0} seconds\n\n", ltimeTemp - ltime);
 
+            Console.WriteLine("========================================\n");
         }
 
 
