@@ -5,12 +5,13 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{55FB3977-1D89-4560-BC13-09B033C794FA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>landisPro2landis2Harvest</RootNamespace>
-    <AssemblyName>landisPro2landis2Harvest</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Landis.Extension.Landispro.Harvest</RootNamespace>
+    <AssemblyName>Landis.Extension.Landispro.Harvest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,7 +52,14 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="gdalconst_csharp, Version=1.0.6785.30731, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\gdalconst_csharp.dll</HintPath>
+    </Reference>
     <Reference Include="gdal_csharp, Version=1.0.6785.30729, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\gdal_csharp.dll</HintPath>
@@ -71,6 +79,10 @@
     <Reference Include="Landis.SpatialModeling, Version=1.0.4815.34359, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x64\Debug\Landis.SpatialModeling.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.6785.30727, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\ogr_csharp.dll</HintPath>
     </Reference>
     <Reference Include="osr_csharp, Version=1.0.6785.30725, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -121,4 +133,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetName).* "E:\WorkPlace\landisProHarvest2Core\landisPro2landis2Harvest\bin\extensions"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

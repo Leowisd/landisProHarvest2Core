@@ -647,6 +647,7 @@ namespace Landis.Extension.Landispro.Harvest
                 sarray = instring.Split(' ');
 
                 temp_spec_order = int.Parse(sarray[0]);
+
                 speciesOrder[temp_spec_order - 1] = i + 1;
                 flag_cut[i] = int.Parse(sarray[1]);
                 flag_plant[i] = int.Parse(sarray[2]);

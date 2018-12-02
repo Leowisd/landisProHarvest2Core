@@ -1,0 +1,61 @@
+Initilization took: 00:00:00.9016787 seconds
+
+Processing succession at Year: 10:
+Processing harvest: 00:00:00.2084426 seconds
+
+Processing succession at Year: 10:
+Processing succession: 00:00:00.0209439 seconds
+
+Processing succession at Year: 20:
+Processing harvest: 00:00:00.2029784 seconds
+
+Processing succession at Year: 20:
+Processing succession: 00:00:00.0049858 seconds
+
+Processing succession at Year: 30:
+Processing harvest: 00:00:00.1755741 seconds
+
+Processing succession at Year: 30:
+Processing succession: 00:00:00.0030312 seconds
+
+Processing succession at Year: 40:
+Processing harvest: 00:00:00.1773993 seconds
+
+Processing succession at Year: 40:
+Processing succession: 00:00:00.0279517 seconds
+
+Processing succession at Year: 50:
+Processing harvest: 00:00:00.2609182 seconds
+
+Processing succession at Year: 50:
+Processing succession: 00:00:00.0030275 seconds
+
+Processing succession at Year: 60:
+Processing harvest: 00:00:00.1728886 seconds
+
+Processing succession at Year: 60:
+Processing succession: 00:00:00.0020286 seconds
+
+Processing succession at Year: 70:
+Processing harvest: 00:00:00.1608220 seconds
+
+Processing succession at Year: 70:
+Processing succession: 00:00:00.0040070 seconds
+
+Processing succession at Year: 80:
+Processing harvest: 00:00:00.1787277 seconds
+
+Processing succession at Year: 80:
+Processing succession: 00:00:00.0039826 seconds
+
+Processing succession at Year: 90:
+Processing harvest: 00:00:00.1861149 seconds
+
+Processing succession at Year: 90:
+Processing succession: 00:00:00.0049990 seconds
+
+Processing succession at Year: 100:
+Processing harvest: 00:00:00.1885067 seconds
+
+Processing succession at Year: 100:
+Processing succession: 00:00:00.0040308 seconds

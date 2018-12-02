@@ -46,6 +46,10 @@ namespace Landis.Extension.Landispro.Harvest
             BoundedPocketStandHarvester.pCoresites = psi;
             BoundedPocketStandHarvester.giRow = (int)BoundedPocketStandHarvester.pCoresites.numRows;
             BoundedPocketStandHarvester.giCol = (int)BoundedPocketStandHarvester.pCoresites.numColumns;
+            //Console.WriteLine(BoundedPocketStandHarvester.giRow);
+            //Console.WriteLine(BoundedPocketStandHarvester.giCol);
+            //Console.Read();
+
 
             BoundedPocketStandHarvester.m_pPDP = pdp;
             BoundedPocketStandHarvester.numberOfSpecies = (int)isp;

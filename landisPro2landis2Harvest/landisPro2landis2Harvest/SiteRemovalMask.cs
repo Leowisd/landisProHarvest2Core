@@ -16,7 +16,9 @@ namespace Landis.Extension.Landispro.Harvest
 
         public SiteRemovalMask()
         {
+
             itsPlantingCode = new IntArray(BoundedPocketStandHarvester.numberOfSpecies);
+
             if (BoundedPocketStandHarvester.numberOfSpecies<=0)
                 throw new Exception("Error: invalid number of speices");
             mask = new CohortRemovalMask[BoundedPocketStandHarvester.numberOfSpecies];

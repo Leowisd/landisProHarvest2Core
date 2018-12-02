@@ -28,7 +28,7 @@ namespace Landis.Extension.Succession.Landispro
         //private static map16 gl_visitMap = new map16();
         private static string[] ageMaps = new string[defines.MAX_RECLASS];
 
-        private string fpforTimeBU_name = null;
+        
         private string fpLogFileSEC_name = null;
 
         private static List<string> SEC_landtypefiles = new List<string>();
@@ -39,9 +39,8 @@ namespace Landis.Extension.Succession.Landispro
         public static uint numSpecies;
         public static uint snr, snc;
         public static pdp pPDP = new pdp();
-
-
-        private static double[] wAdfGeoTransform = new double[6];
+        public static string fpforTimeBU_name = null;
+        public static double[] wAdfGeoTransform = new double[6];
 
         private static uint specAtNum;
 
@@ -82,7 +81,7 @@ namespace Landis.Extension.Succession.Landispro
             modelCore = mCore;
             //Console.WriteLine("Run: From {0} to {1}, current {2}", modelCore.StartTime, modelCore.EndTime, modelCore.CurrentTime);
             //Console.WriteLine("\n\nhere datefile = {0}\n\n", dataFile);
-
+           
             InputParametersParser parser = new InputParametersParser();
             gl_param = Landis.Data.Load<InputParameters>(dataFile, parser);
             //Init_Output.GDLLMode = gl_param.read(dataFile);
@@ -98,6 +97,8 @@ namespace Landis.Extension.Succession.Landispro
             BiomassParamParser bioparser = new BiomassParamParser();
             Landis.Data.Load<BiomassParam>(PlugIn.gl_param.Biomassfile, bioparser);
 
+            numSpecies = gl_spe_Attrs.NumAttrs;
+
 
             species.attach(PlugIn.gl_spe_Attrs);
             gl_landUnits.attach(PlugIn.gl_spe_Attrs);
@@ -107,6 +108,7 @@ namespace Landis.Extension.Succession.Landispro
             Establishment_probability_AttributesParser parser3 = new Establishment_probability_AttributesParser();
             //var establish =
             Landis.Data.Load<Establishment_probability_Attributes>(gl_param.VarianceSECFile, parser3);
+
         }
 
 
@@ -119,8 +121,8 @@ namespace Landis.Extension.Succession.Landispro
             Timestep = gl_param.SuccessionTimestep;
             gl_sites.SuccessionTimeStep = gl_param.SuccessionTimestep;
             In_Output.Init_IO();
-            
-            
+
+
             int envOn = 0;
             int reclYear = 0;
 
@@ -181,7 +183,6 @@ namespace Landis.Extension.Succession.Landispro
             //In_Output.getInput(freq, ageMaps, pPDP, BDANo, wAdfGeoTransform);
             SiteVars.Initialize();
             In_Output.getInput(freq, ageMaps, pPDP, wAdfGeoTransform);
-
 
 #if !LANDISPRO_ONLY_SUCCESSION
             if ((gDLLMode & DEFINES.G_HARVEST) != 0)

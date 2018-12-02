@@ -98,7 +98,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetName).* "C:\Users\yykkn\Desktop\landis cs\summer\landispro2landis2\bin\extensions"</PostBuildEvent>
+    <PostBuildEvent>copy $(TargetName).* "E:\WorkPlace\landisProHarvest2Core\References\landispro2landis2\bin\extensions"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
