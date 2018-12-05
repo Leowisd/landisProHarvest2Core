@@ -1,61 +1,61 @@
-Initilization took: 00:00:00.8168138 seconds
+Initilization took: 00:00:01.3250989 seconds
 
 Processing succession at Year: 10:
-Processing harvest: 00:00:00.2104644 seconds
+Processing harvest: 00:00:00.3372028 seconds
 
 Processing succession at Year: 10:
-Processing succession: 00:00:00.0169543 seconds
+Processing succession: 00:00:00.0159373 seconds
 
 Processing succession at Year: 20:
-Processing harvest: 00:00:00.1839185 seconds
+Processing harvest: 00:00:00.2750608 seconds
 
 Processing succession at Year: 20:
-Processing succession: 00:00:00.0039892 seconds
+Processing succession: 00:00:00.0029925 seconds
 
 Processing succession at Year: 30:
-Processing harvest: 00:00:00.1657101 seconds
+Processing harvest: 00:00:00.2533432 seconds
 
 Processing succession at Year: 30:
-Processing succession: 00:00:00.0035082 seconds
+Processing succession: 00:00:00.0040165 seconds
 
 Processing succession at Year: 40:
-Processing harvest: 00:00:00.1670583 seconds
+Processing harvest: 00:00:00.1959446 seconds
 
 Processing succession at Year: 40:
-Processing succession: 00:00:00.0179437 seconds
+Processing succession: 00:00:00.0189502 seconds
 
 Processing succession at Year: 50:
-Processing harvest: 00:00:00.2410206 seconds
+Processing harvest: 00:00:00.1856609 seconds
 
 Processing succession at Year: 50:
-Processing succession: 00:00:00.0029921 seconds
+Processing succession: 00:00:00.0039877 seconds
 
 Processing succession at Year: 60:
-Processing harvest: 00:00:00.1906828 seconds
+Processing harvest: 00:00:00.2336035 seconds
 
 Processing succession at Year: 60:
-Processing succession: 00:00:00.0039888 seconds
+Processing succession: 00:00:00.0029914 seconds
 
 Processing succession at Year: 70:
-Processing harvest: 00:00:00.3185505 seconds
+Processing harvest: 00:00:00.2025996 seconds
 
 Processing succession at Year: 70:
-Processing succession: 00:00:00.0030002 seconds
+Processing succession: 00:00:00.0029849 seconds
 
 Processing succession at Year: 80:
-Processing harvest: 00:00:00.1541135 seconds
+Processing harvest: 00:00:00.3665913 seconds
 
 Processing succession at Year: 80:
-Processing succession: 00:00:00.0039147 seconds
+Processing succession: 00:00:00.0029936 seconds
 
 Processing succession at Year: 90:
-Processing harvest: 00:00:00.1454964 seconds
+Processing harvest: 00:00:00.2098099 seconds
 
 Processing succession at Year: 90:
-Processing succession: 00:00:00.0029341 seconds
+Processing succession: 00:00:00.0039822 seconds
 
 Processing succession at Year: 100:
-Processing harvest: 00:00:00.2093507 seconds
+Processing harvest: 00:00:00.1798506 seconds
 
 Processing succession at Year: 100:
-Processing succession: 00:00:00.0030052 seconds
+Processing succession: 00:00:00.0029918 seconds

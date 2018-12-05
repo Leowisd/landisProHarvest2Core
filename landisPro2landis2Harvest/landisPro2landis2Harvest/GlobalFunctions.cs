@@ -288,7 +288,7 @@ namespace Landis.Extension.Landispro.Harvest
 
             pintScanline = new float[BoundedPocketStandHarvester.pCoresites.numRows * BoundedPocketStandHarvester.pCoresites.numColumns]; //*
 
-            poDstDS = poDriver.Create(str_htyp1, (int)BoundedPocketStandHarvester.pCoresites.numColumns, (int)BoundedPocketStandHarvester.pCoresites.numRows, 1, DataType.GDT_CFloat32, papszOptions); //*
+            poDstDS = poDriver.Create(str_htyp1, (int)BoundedPocketStandHarvester.pCoresites.numColumns, (int)BoundedPocketStandHarvester.pCoresites.numRows, 1, DataType.GDT_UInt32, papszOptions); //*
             if (poDstDS == null)
             {
                 throw new Exception("Img file not be created."); //*
@@ -321,7 +321,7 @@ namespace Landis.Extension.Landispro.Harvest
 
             pintScanline = new float[BoundedPocketStandHarvester.pCoresites.numRows * BoundedPocketStandHarvester.pCoresites.numColumns]; //*
 
-            poDstDS = poDriver.Create(str_dec1, (int)BoundedPocketStandHarvester.pCoresites.numColumns, (int)BoundedPocketStandHarvester.pCoresites.numRows, 1, DataType.GDT_Float32, papszOptions); //*
+            poDstDS = poDriver.Create(str_dec1, (int)BoundedPocketStandHarvester.pCoresites.numColumns, (int)BoundedPocketStandHarvester.pCoresites.numRows, 1, DataType.GDT_UInt32, papszOptions); //*
             if (poDstDS == null)
             {
                 throw new Exception("Img file not be created."); //*
